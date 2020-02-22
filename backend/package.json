@@ -2,18 +2,19 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "",
-  "main": "src/loader.js",
+  "main": "src/app.js",
   "scripts": {
     "dev": "nodemon",
-    "prod": "pm2 start src/loader.js --name sports"
+    "prod": "pm2 start src/app.js --name sports"
   },
   "keywords": [],
   "author": "Douglas Fortunato <douglasfortunato@hotmail.com> (https://github.com/indeximer)",
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
     "express": "^4.17.1",
-    "node-restful": "^0.2.6",
+    "node-fetch": "^2.6.0",
     "pm2": "^4.2.3"
   },
   "devDependencies": {
