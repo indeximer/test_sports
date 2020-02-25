@@ -1,0 +1,20 @@
+.section-title-wrapper{
+    color: #fff;
+    img{
+        margin-right: 15px;
+    }
+    .section-title{
+        font-size: 36px;
+    }
+    .section-subtitle{
+        font-size: 20px;
+    }
+    @media screen and (max-width: 500px){
+        .section-title{
+            font-size: 24px;
+        }
+        .section-subtitle{
+            font-size: 18px;
+        }
+    }
+}

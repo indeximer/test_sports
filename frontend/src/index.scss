@@ -1,0 +1,33 @@
+@import '~bootstrap/scss/bootstrap.scss';
+@import '~bootstrap/scss/bootstrap-reboot.scss';
+
+$fa-font-path: "~@fortawesome/fontawesome-free/webfonts";
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+@import "~@fortawesome/fontawesome-free/scss/solid";
+
+body{
+    background: #0D80BF;
+    color: #000;
+}
+
+a{
+    color:inherit;
+    transition: all 0.3s ease;
+    &:hover{
+        opacity: 0.7;
+        color: inherit;
+    }
+}
+.list-group-item-primary{
+    background-color: #fff;
+    color: #000;
+}
+.btn-primary{
+    background-color: #0D80BF;
+    border-color: #0D80BF;
+}
+@media screen and (max-width: 500px){
+    img{
+        max-width: 60px;
+    }
+}

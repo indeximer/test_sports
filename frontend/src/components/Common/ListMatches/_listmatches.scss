@@ -1,0 +1,33 @@
+.list-matches{
+    .team-info,
+    .separator{
+        font-weight: bold;
+    }
+    .team-link{
+        flex-direction: column;
+        align-items: center;
+        font-size: 18px;
+    }
+    .team-score{
+        font-size: 70px;
+    }
+    .separator{
+        font-size: 40px;
+    }
+    @media screen and (max-width: 500px){
+        .championship-info,
+        .additional-info,
+        .team-link{
+            font-size: 14px;
+        }
+        .team-score{
+            font-size: 35px;
+        }
+        .separator{
+            font-size: 20px;
+        }
+        .team-info{
+            margin: 15px 0;
+        }
+    }
+}

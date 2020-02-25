@@ -1,0 +1,11 @@
+.navbar-dark{
+    background-color: #000 !important;
+}
+.navbar-brand{
+    display: inline-flex;
+    align-items: center;
+    img{
+        max-width: 40px;
+        margin-right: 10px;
+    }
+}

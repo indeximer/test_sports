@@ -1,5 +1,6 @@
 {
-    "url": "https://futebol.homolog.groundsportech.com/samples/campeonatos",
+    "url":"https://futebol.homolog.groundsportech.com/samples",
+    "urlChampionships": "https://futebol.homolog.groundsportech.com/samples/campeonatos",
     "urlBrazilCup": "https://futebol.homolog.groundsportech.com/samples/campeonatos/670",
     "urlBrazilianChampionship": "https://futebol.homolog.groundsportech.com/samples/campeonatos/673"
 }
