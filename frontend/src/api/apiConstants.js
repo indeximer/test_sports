@@ -1,4 +1,4 @@
-export const apiUrl = 'http://localhost:3001/api'
+export const apiUrl = 'https://sports-exercise.herokuapp.com/api'
 export const gremioId = 1083
 
 export async function request(endPoint, params = null, signal, method = 'GET') {
